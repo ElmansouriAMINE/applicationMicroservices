@@ -18,6 +18,9 @@ Des microservices clients : ces microservices constituent le noyau de l'applicat
 Une API Gateway : cette API agit comme un point d'entrée centralisé pour l'application, simplifiant la gestion des requêtes.
 Un serveur de découverte Eureka : ce serveur permet à chaque microservice de s'enregistrer de manière dynamique, formant ainsi un répertoire décentralisé des services disponibles.
 Déroulement de la tâche pratique
+[
+![archi-Micro](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/bbb3fe68-6264-477d-a7b6-7dfc2defad18)
+](url)
 
 La tâche pratique se déroulera en plusieurs étapes :
 
