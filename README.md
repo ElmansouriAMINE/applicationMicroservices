@@ -35,3 +35,21 @@ Dans cette étape, nous configurerons l'API Gateway pour qu'elle dirige le trafi
 
 Mise en œuvre d'une communication synchrone entre les microservices
 Dans cette étape, nous mettrons en œuvre une communication synchrone entre les microservices clients à l'aide de l'outil OpenFeign.
+
+## Configuration des fichiers application.properties pour les différentes Microservices:
+### Microservice Client:
+![client](https://github.com/ElmansouriAMINE/MOROCCO-MONUMENTS-LOCATION-IDENTIFYING/assets/101812229/c45a51c4-96c9-4528-bb0b-1053f1b0fd0b)
+
+### Microservice Voiture:
+![voiture](https://github.com/ElmansouriAMINE/MOROCCO-MONUMENTS-LOCATION-IDENTIFYING/assets/101812229/6e4cf374-e784-46cc-ac1e-c3718694f9ba)
+
+### Eureka Server:
+![Eureka_server](https://github.com/ElmansouriAMINE/MOROCCO-MONUMENTS-LOCATION-IDENTIFYING/assets/101812229/b140f070-8925-4a59-a7f2-6e917c8a7e38)
+
+### Api GateWay:
+![Gateway](https://github.com/ElmansouriAMINE/MOROCCO-MONUMENTS-LOCATION-IDENTIFYING/assets/101812229/b0956306-3672-4109-8d77-cbb6336f6201)
+
+
+
+
+
