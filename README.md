@@ -57,6 +57,9 @@ Dans cette étape, nous mettrons en œuvre une communication synchrone entre les
 5.![voitures2](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/96a5d265-226e-4597-8262-bca3f9891445)
 6.![voitures3](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/31e6a186-031e-4723-bdc6-00530dacaa5e)
 7.![clients666](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/1b89d48c-087c-41be-b0e3-6cf27d2205ff)
+8.\
+![voitures55](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/ab5bb9dc-0bd4-428d-ac98-c865202d85be)
+
 
 
 
