@@ -1,4 +1,4 @@
-# applicationMicroservices
+# ApplicationMicroservices
 ## Objectifs de la tâche pratique
 
 L'objectif de cette tâche pratique est d'apprendre les principes de l'architecture des microservices. Plus précisément, nous nous concentrerons sur les aspects suivants :
