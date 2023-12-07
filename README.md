@@ -54,9 +54,12 @@ Dans cette étape, nous mettrons en œuvre une communication synchrone entre les
 2.![voitures](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/3b469d2f-b58c-4dc3-8c43-869e8080b14b)
 3.![clients](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/c26bbe59-be4d-413b-9d3c-7baef1e00726)
 4.![voitures2](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/49f5fff8-8965-4353-aa8b-322d15d7785a)
-5.![voitures2](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/96a5d265-226e-4597-8262-bca3f9891445)
+5.1.![voitures2](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/96a5d265-226e-4597-8262-bca3f9891445)
+5.2.![5](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/dd650c9e-866a-461c-8b55-166f2d96d1b9)
+
 6.![voitures3](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/31e6a186-031e-4723-bdc6-00530dacaa5e)
-7.![clients666](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/1b89d48c-087c-41be-b0e3-6cf27d2205ff)
+7.1.![clients666](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/1b89d48c-087c-41be-b0e3-6cf27d2205ff)
+7.2.![7](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/b1f595bc-d7db-4fc4-a416-711963c39fb1)
 8.\
 ![voitures55](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/ab5bb9dc-0bd4-428d-ac98-c865202d85be)
 
