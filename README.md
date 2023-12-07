@@ -49,6 +49,17 @@ Dans cette étape, nous mettrons en œuvre une communication synchrone entre les
 ### Api GateWay:
 ![Gateway](https://github.com/ElmansouriAMINE/MOROCCO-MONUMENTS-LOCATION-IDENTIFYING/assets/101812229/b0956306-3672-4109-8d77-cbb6336f6201)
 
+## Réalisation
+1.![Eureka](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/7672b740-61a1-4573-995a-4cc0f56c0f99)
+2.![voitures](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/3b469d2f-b58c-4dc3-8c43-869e8080b14b)
+3.![clients](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/c26bbe59-be4d-413b-9d3c-7baef1e00726)
+4.![voitures2](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/49f5fff8-8965-4353-aa8b-322d15d7785a)
+5.![voitures2](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/96a5d265-226e-4597-8262-bca3f9891445)
+6.![voitures3](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/31e6a186-031e-4723-bdc6-00530dacaa5e)
+7.![clients666](https://github.com/ElmansouriAMINE/applicationMicroservices/assets/101812229/1b89d48c-087c-41be-b0e3-6cf27d2205ff)
+
+
+
 
 
 
