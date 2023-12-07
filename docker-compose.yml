@@ -6,34 +6,27 @@ services:
     restart: unless-stopped
     env_file: ./.env
     environment:
-      - MYSQL_ROOT_PASSWORD=
-      - MYSQL_DATABASE=mydatabase
+      - MYSQL_ALLOW_EMPTY_PASSWORD=1
     ports:
-      - $MYSQLDB_LOCAL_PORT:$MYSQLDB_DOCKER_PORT
+      - "3306:3306"
     volumes:
       - db:/var/lib/mysql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
   gateway:
+    depends_on:
+      - app
     build: ./GateWay/GateWay
     restart: on-failure
-      # env_file: ./.env
     ports:
         - 8888:8888
   
   app:
-    # depends_on:
-    #   - mysqldb
     build: ./Eureka_Server
     restart: on-failure
     # env_file: ./.env
     ports:
-      - 8761:8761
-    # environment:
-    #   SPRING_APPLICATION_JSON: '{
-    #     "spring.datasource.url"  : "jdbc:mysql://mysqldb:$MYSQLDB_DOCKER_PORT/$MYSQLDB_DATABASE?useSSL=false",
-    #     "spring.datasource.username" : "$MYSQLDB_USER",
-    #     "spring.datasource.password" : "$MYSQLDB_ROOT_PASSWORD",
-    #     "spring.jpa.properties.hibernate.dialect" : "org.hibernate.dialect.MySQL5InnoDBDialect",
-    #     "spring.jpa.hibernate.ddl-auto" : "update" }'
+      - "8761:8761"
+   
   client:
     depends_on:
         - mysqldb
@@ -42,7 +35,7 @@ services:
     restart: on-failure
     env_file: ./.env
     ports:
-        - $SPRING_LOCAL_PORT:$SPRING_DOCKER_PORT
+        - "8088:8088"
     environment:
         SPRING_APPLICATION_JSON: '{
           "spring.datasource.url"  : "jdbc:mysql://mysqldb:$MYSQLDB_DOCKER_PORT/$MYSQLDB_DATABASE?useSSL=false",
@@ -51,6 +44,29 @@ services:
           "spring.jpa.properties.hibernate.dialect" : "org.hibernate.dialect.MySQLDialect",
           "spring.jpa.hibernate.ddl-auto" : "update"}'     
     
+    volumes:
+      - .m2:/root/.m2
+    stdin_open: true
+    tty: true
+
+  voiture:
+    depends_on:
+      - mysqldb
+      - app
+      - client
+    build: ./Voiture/Voiture
+    restart: on-failure
+    env_file: ./.env
+    ports:
+      - "8089:8089"
+    environment:
+      SPRING_APPLICATION_JSON: '{
+          "spring.datasource.url"  : "jdbc:mysql://mysqldb:$MYSQLDB_DOCKER_PORT/$MYSQLDB_DATABASE_2?useSSL=false",
+          "spring.datasource.username" : "$MYSQLDB_USER",
+          "spring.datasource.password" : "$MYSQLDB_ROOT_PASSWORD",
+          "spring.jpa.properties.hibernate.dialect" : "org.hibernate.dialect.MySQL5Dialect",
+          "spring.jpa.hibernate.ddl-auto" : "update"}'
+
     volumes:
       - .m2:/root/.m2
     stdin_open: true
